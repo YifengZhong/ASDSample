@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PanelControlView">
+   <children>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="b0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" />
+            <Button fx:id="c0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" />
+            <Button fx:id="c1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="d0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" />
+            <Button fx:id="e0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" />
+            <Button fx:id="f0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" />
+            <Button fx:id="g0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" />
+            <Button fx:id="h0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" />
+            <Button fx:id="a1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="1" />
+            <Button fx:id="a2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="2" />
+            <Button fx:id="a3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="3" />
+            <Button fx:id="a4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="4" />
+            <Button fx:id="a5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="5" />
+            <Button fx:id="a6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="6" />
+            <Button fx:id="a7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.rowIndex="7" />
+            <Button fx:id="b1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="c2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="d3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="e4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="f5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="g6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="h7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Button fx:id="a0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onA0" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" />
+            <Button fx:id="d1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="e1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="f1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="g1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="h1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH1" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="b2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="d2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="e2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="f2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="g2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="h2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH2" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="b3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="c3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="e3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="f3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="g3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="h3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH3" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="b4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="c4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="d4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="f4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="g4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="h4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH4" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="b5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="c5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="d5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="e5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="g5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="h5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH5" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="b6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="c6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="d6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="e6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="f6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="h6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onH6" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="b7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onB7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="c7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onC7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button fx:id="d7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onD7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button fx:id="e7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onE7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="f7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onF7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button fx:id="g7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onG7" prefHeight="50.0" prefWidth="50.0" stylesheets="@panel.css" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

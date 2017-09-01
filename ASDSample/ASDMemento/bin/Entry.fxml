@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserInfoController">
+   <children>
+      <Pane layoutX="-131.0" layoutY="-88.0" prefHeight="611.0" prefWidth="549.0">
+         <children>
+            <Label layoutX="144.0" layoutY="126.0" text="Last Name:" />
+            <Label layoutX="143.0" layoutY="201.0" text="First Name:" />
+            <Label layoutX="144.0" layoutY="278.0" text="Gender:" />
+            <Label layoutX="140.0" layoutY="354.0" text="Address:" />
+            <TextField id="lastName" fx:id="lastName" layoutX="237.0" layoutY="106.0" onMouseExited="#onLastNameMouse" prefHeight="33.0" prefWidth="221.0" />
+            <TextField id="address" fx:id="address" layoutX="237.0" layoutY="334.0" onMouseExited="#onAddressMouse" prefHeight="33.0" prefWidth="221.0" />
+            <TextField id="firstName" fx:id="firstName" layoutX="237.0" layoutY="181.0" onMouseExited="#onFirstNameMouse" prefHeight="33.0" prefWidth="221.0" />
+            <TextField id="gender" fx:id="gender" layoutX="237.0" layoutY="258.0" onMouseExited="#onGenderMouse" prefHeight="33.0" prefWidth="221.0" />
+            <Button id="load" layoutX="139.0" layoutY="485.0" mnemonicParsing="false" onAction="#onLoad" text="Load" />
+            <TextField id="id" fx:id="id" layoutX="237.0" layoutY="408.0" onMouseExited="#onIdMouse" prefHeight="33.0" prefWidth="221.0" />
+            <Label layoutX="141.0" layoutY="428.0" text="ID:" />
+            <Button id="save" layoutX="289.0" layoutY="484.0" mnemonicParsing="false" onAction="#onSave" text="save" />
+            <Button id="return" layoutX="424.0" layoutY="484.0" mnemonicParsing="false" onAction="#onReturn" text="return" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
